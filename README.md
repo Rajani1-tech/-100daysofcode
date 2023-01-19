@@ -1,5 +1,5 @@
 # -100daysofcode
-Day 1 of #100daysofcode
+# Day 1 of #100daysofcode
 
 I've gained knowledge of the core concepts of deep learning, including concepts like neuron networks, activation functions, and hidden layers.
 In order to assess how the model's performance changes when a hidden layer is introduced,
@@ -7,7 +7,7 @@ I have also classified handwritten digits using a rudimentary neural network wit
 
 ![Screenshot (39)](https://user-images.githubusercontent.com/83020452/212559783-60fb1d8b-d541-4132-a43e-f73682ba897d.png)
 
-Day 2 0f #100daysofcode
+# Day 2 0f #100daysofcode
 
 Activation function refers to the output of that node given an input or set of inputs. It maps the resulting values in between 0 to 1 or -1 to 1 etc. (depending upon the function).
 
@@ -27,7 +27,7 @@ It is an upgraded variant of ReLU with a tiny slope for negative values rather t
 
 ![image](https://user-images.githubusercontent.com/83020452/213479867-5833f165-ae18-4183-b27b-bef2a13f649b.png)
 
-Day 3 of #100daysofcode
+# Day 3 of #100daysofcode
 
 Today, as part of my learning adventure, I discovered loss functions and how they are implemented using Tensorflow. Only MSE has been deployed so far; the rest will be in the next days.
 
@@ -42,11 +42,15 @@ Types of Loss Functions
 ![image](https://user-images.githubusercontent.com/83020452/213480190-ae15fc57-f604-45f3-9c93-ad145611a818.png)
 ![image](https://user-images.githubusercontent.com/83020452/213480246-40769e33-e9c3-4dfd-be9e-bfdb203e60eb.png)
 
-Day 4 of #100daysofcode
+# Day 4 of #100daysofcode
 Today, I developed Binary Cross-Entropy, a sort of classification loss function, continuing my learning process from yesterday when I implemented MSE, a regression loss function.
-![image](https://user-images.githubusercontent.com/83020452/213480400-307b1996-67de-4adf-aa39-724f9165a46a.png)
 
-Day 5 of #100daysofcode
+
+![https___mlfromscratch_com_content_images_2019_12_activation-functions](https://user-images.githubusercontent.com/83020452/213481406-f2a67e3d-67c7-4927-afa1-5aa4c1f66133.gif)
+
+
+# Day 5 of #100daysofcode
+
 On my deep learning adventure, today I learned about optimization, its many forms, and how to pick the optimal optimizer to shorten training time. I just know a handful of its sorts, and I'll learn the rest in the following days.
 Optimizers are algorithms or techniques that alter the weights and learning rates of neural networks in order to minimize losses and produce the most precise results.
 Below is an explanation of several optimizers:
@@ -62,6 +66,7 @@ SGD is a variation of the gradient descent that calculates the error and updates
 
 4. Gradient Descent with Momentum
 It is invented for reducing high variance in SGD and softening the convergence. It accelerates the convergence towards the relevant direction and reduces the fluctuation to the irrelevant direction.
+
 ![image](https://user-images.githubusercontent.com/83020452/213480603-c9759056-a64c-43f8-91e5-85b8577bf6bd.png)
 
 
