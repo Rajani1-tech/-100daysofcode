@@ -25,7 +25,8 @@ The ReLU is the most used activation function in the world right now. Since it i
 4. Leaky ReLU  
 It is an upgraded variant of ReLU with a tiny slope for negative values rather than a flat slope. Before training, the slope coefficient is calculated. It is often used in situations where sparse gradients may be an issue. 
 
-![image](https://user-images.githubusercontent.com/83020452/213479867-5833f165-ae18-4183-b27b-bef2a13f649b.png)
+![https___mlfromscratch_com_content_images_2019_12_activation-functions](https://user-images.githubusercontent.com/83020452/213482102-253b09b0-9d67-4ba1-a300-f39ccc0259f7.gif)
+
 
 # Day 3 of #100daysofcode
 
@@ -45,8 +46,8 @@ Types of Loss Functions
 # Day 4 of #100daysofcode
 Today, I developed Binary Cross-Entropy, a sort of classification loss function, continuing my learning process from yesterday when I implemented MSE, a regression loss function.
 
+![image](https://user-images.githubusercontent.com/83020452/213482000-f69bcf83-a59e-482d-b233-1133b8b7313b.png)
 
-![https___mlfromscratch_com_content_images_2019_12_activation-functions](https://user-images.githubusercontent.com/83020452/213481406-f2a67e3d-67c7-4927-afa1-5aa4c1f66133.gif)
 
 
 # Day 5 of #100daysofcode
