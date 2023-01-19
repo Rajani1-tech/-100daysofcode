@@ -57,19 +57,15 @@ Optimizers are algorithms or techniques that alter the weights and learning rate
 Below is an explanation of several optimizers:
 
 1. Batch Gradient Descent (BGD)
-
 BGD is a variation of the gradient descent algorithm that calculates the error for each of the training datasets, but only updates the model after all training examples have been evaluated.
 
 2. Mini Batch Gradient Descent(MGD)
-
 MGD is a variation of the gradient descent algorithm that splits the training datasets into small batches that are used to calculate model error and update model coefficients.
 
 3. Stochastic Gradient Descent(SGD)
-
 SGD is a variation of the gradient descent that calculates the error and updates the model for each record in the training datasets.
 
 4. Gradient Descent with Momentum
-
 It is invented for reducing high variance in SGD and softening the convergence. It accelerates the convergence towards the relevant direction and reduces the fluctuation to the irrelevant direction.
 
 ![image](https://user-images.githubusercontent.com/83020452/213480603-c9759056-a64c-43f8-91e5-85b8577bf6bd.png)
