@@ -70,5 +70,52 @@ It is invented for reducing high variance in SGD and softening the convergence. 
 
 ![image](https://user-images.githubusercontent.com/83020452/213480603-c9759056-a64c-43f8-91e5-85b8577bf6bd.png)
 
+# Day 6 of #100daysofcode
+
+I have concluded learning the several optimizer kinds that were left over from yesterday.
+
+1. Adagrad Optimizer
+Adagrad is an optimizer with parameter-specific learning rates, which are adapted relative to how frequently a parameter gets updated during training. The more updates a parameter receives, the smaller the updates. Due to its quicker learning rate reduction for frequent parameters and slower learning rate reduction for uncommon parameters, this method works well with sparse data.
+The denominator grows aggressively monotonically as squared gradients are added, which is AdaGrad's drawback. The learning rate eventually reaches an infinitesimally tiny value, at which time the algorithm effectively stops moving in the direction of the minimum.
+
+2. Root Mean Squared Propagation
+When AdaGrad was getting near to convergence, it became immobile because the degraded learning rate prevented it from moving in the vertical direction. This issue is solved by RMSProp by being less aggressive toward decay.
+RMSProp, is a variation on gradient descent, and the AdaGrad version of gradient descent that adapts the step size for each parameter using a declining average of partial gradients. The adaptive learning rate's focus on more recent gradients is managed by the hyperparameter,
+sometimes referred to as the decay rate. RMSProp will often perform better than AdaGrad.
+
+3. Adam Optimization
+Adam, which stands for Adaptive Moment Estimation, combines the concepts of Momentum Optimization and RMSProp. Momentum Optimization maintains a record of an exponentially decaying average of previous gradients, while RMSProp maintains a record of an exponentially decaying average of previously squared gradients. Adam uses the average of the second moments of the gradients in addition to the average of the first moments, which is how RMSProp adjusts the parameter learning rates (the uncentered variance).
+
+![1674230353703](https://user-images.githubusercontent.com/83020452/214364787-a42df3f1-636a-4ef4-8dd6-2c12b8396e16.gif)
+
+# Day 7 of #100daysofcode
+
+Today, as I continue on my deep learning adventure, I learned once more about the numerous neural network types, their applications, and both their pros and cons.
+
+![1674319388048](https://user-images.githubusercontent.com/83020452/214365138-cd21d338-2d33-4d06-a2b9-06de04752865.jpg)
+
+# Day 8 of #100daysofcode
+On my learning journey today, I discovered the Convolutional Neural Network, its fundamental parts, and how it is implemented.
+
+CNN is a deep learning model that can handle data having a grid pattern, like photographs, from simple to complex patterns.
+The following five fundamental elements make up CNN:
+1. Convolution: identifying features in a picture; 
+ 2. ReLU: to smear the picture and highlight boundaries
+3. Pooling: for repairing damaged images
+4. Flattening: making the image into an acceptable representation 
+5. Full connection: to use a neural network to analyze data
+
+![1674497375323](https://user-images.githubusercontent.com/83020452/214365327-5a766b24-33ad-4918-952f-4713d21a8d1e.jpg)
+
+![1674497375218](https://user-images.githubusercontent.com/83020452/214365350-c442292c-a0f6-4ab4-96a1-9a8aaf945466.jpg)
+
+  # Day 9 of #100daysofcode
+
+Today, as part of my deep learning quest, I learned about LeNET and its implementation.
+
+
+![1674580237980](https://user-images.githubusercontent.com/83020452/214365592-e1312a64-c3de-4493-9148-1cbb9531cd9a.jpg)
+
+
 
 
