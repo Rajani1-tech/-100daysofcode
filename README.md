@@ -115,6 +115,73 @@ Today, as part of my deep learning quest, I learned about LeNET and its implemen
 
 
 ![1674580237980](https://user-images.githubusercontent.com/83020452/214365592-e1312a64-c3de-4493-9148-1cbb9531cd9a.jpg)
+ # Day 10 of #100daysofcode
+ 
+ Today, I discovered AlexNet and how it operates.
+AlexNet is the deep learning architecture that popularized CNN. In terms of design, the AlexNet network was quite similar to the LeNet network, but it was deeper, larger, and contained Convolutional Layers piled on top of one another. At the time of its release, the AlexNet architecture produced findings that were cutting-edge for application with large-scale picture collections. Max-pooling layers, fully connected layers, dropout layers, and three more types of layers make up AlexNet's five convolutional layers. All layers employ the Relu activation function. The output layer has Softmax as its activation function. This architecture has almost 60 million parameters overall.
+
+![1674669919777](https://user-images.githubusercontent.com/83020452/216763132-a3234f2a-b944-4953-9bd4-998a2bddeedd.jpg)
+
+# Day 11 of #100daysofcode
+
+I gained knowledge of many CNN architectures, like GoogLeNet and VGGNet, and I also discovered how to build them using Keras.
+
+# Day 12 of #100daysofcode
+
+Today I learned about Xception while continuing my deep learning quest.
+Xception is a convolutional neural network (CNN) architecture developed by Google for image classification tasks. It is a variant of the Inception architecture and is designed to improve upon the Inception model by reducing the number of computations required while maintaining or improving accuracy. Xception is known for its exceptional performance on image classification tasks and is often used as a feature extractor in computer vision applications.
+
+It combines the concepts of Google Neural Network and ResNet Architecture. The data initially passes via the entering flow, following which it moves through the middle flow, where it repeats itself eight times, and ultimately passes through the exit flow.
+
+
+
+![1674929064764](https://user-images.githubusercontent.com/83020452/216763201-36a5fd23-1c2c-4cf7-9e3f-016cdc8f5393.jpg)
+
+# Day 12 of #100daysofcode
+
+Today, while exploring deep learning, I learned about RNN and gained a basic understanding of its purpose, workings, and applications.
+
+RNN stands for Recurrent Neural Network, a type of neural network used for processing sequential data such as time-series data, speech, text, and video. RNNs have a feedback loop that allows information to persist from one step of the sequence to the next, allowing the network to capture temporal dependencies in the data.
+RNNs are used because they are effective in processing sequential data by retaining information from previous time steps, allowing the network to capture patterns and dependencies in the data. This makes RNNs well-suited for tasks such as:
+1. Natural language processing (NLP) and text generation
+2. Speech recognition and synthesis
+3. Time-series prediction and analysis
+4. Video classification and captioning
+5. Machine translation.
+
+
+![1675100505171](https://user-images.githubusercontent.com/83020452/216763302-f4255f7e-fdda-4e00-89a8-d514c5336ca5.gif)
+
+
+
+# Day 13 of #100daysofcode
+
+Today, I gained knowledge on RNN operation.
+In Recurrent Neural networks, the information cycles through a loop to the middle hidden layer. The input to the neural network is received by layer "x," which processes it before sending it to layer "m."
+
+There may be several hidden layers in the middle layer "h," each with its own activation functions, weights, and biases. We can utilize a recurrent neural network if our neural network's hidden layers' various parameters are independent of each other and the prior layer, or if our neural network lacks memory.
+
+
+![1675187296216](https://user-images.githubusercontent.com/83020452/216763347-99e8979e-0a01-4887-800f-80de53d6b35a.gif)
+
+# Day 14 of #100daysofcode
+
+Today I explored the following sorts of RNN:
+1. One to One RNN
+This type of neural network is known as the Vanilla Neural Network.It is applied to issues in generic machine learning that have a single input and a single output.
+
+2. One to Many RNN
+This type of neural network has a single input and multiple outputs. An example of this is the image caption.
+
+3. Many to One RNN
+A series of inputs are used by this RNN to produce a single output. Sentiment analysis is a good example of this type of network, which allows for the classification of a given sentence as reflecting either positive or negative thoughts.
+
+4. Many to Many RNN
+This RNN takes a sequence of inputs and generates a sequence of outputs. Machine translation is one example.
+
+
+
+![1675444002702](https://user-images.githubusercontent.com/83020452/216763397-547d9e9d-c74d-4756-919d-8b949271d4b3.jpg)
 
 
 
