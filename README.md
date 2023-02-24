@@ -260,7 +260,7 @@ I completed the project Fake News Classifier using LSTM while learning deep lear
 ![image](https://user-images.githubusercontent.com/83020452/221072685-a6305219-cb62-4f69-90cb-be9d0d366b2d.png)
 
 
-Day 20 of #100daysofcode
+# Day 20 of #100daysofcode
 
 Today, I discovered bidirectional LSTM, how it operates, and how it differs from LSTM.
 
@@ -273,7 +273,8 @@ One advantage of utilizing a bidirectional LSTM is that it can detect long-term 
 ![image](https://user-images.githubusercontent.com/83020452/221072806-be94ac6e-7bc7-4280-979f-a9c698d9cc76.png)
 
 
-Day 21 of #100daysofcode
+# Day 21 of #100daysofcode
+
 Today, I learn more about word embedding and word2Vec.
 
 Word embedding is a technique used in natural language processing and machine learning that maps words or phrases to vectors of real numbers in a high-dimensional space.
@@ -292,9 +293,12 @@ With the help of bidirectional LSTM, I classified sequences today.
 
 
  # Day 23 of #100daysofcode
+ 
 I learned about the attention model today.
+
 Attention models are neural network input processing strategies that enable the network to concentrate on particular elements of a complicated input, one at a time until the entire dataset is categorized. The idea is to divide difficult tasks into manageable attentional chunks that are processed sequentially. Similar to how the human mind breaks down a new challenge into smaller jobs and tackles them one at a time.
 Continuous reinforcement or backpropagation training is required for attention models to function well.
+
 Attention is used for a variety of activities, including memory in neural Turing machines, reasoning in differentiable neural computers, language processing in transformers and LSTMs, and multisensory data processing (sound, pictures, video, and text) in perceivers.
 
 ![image](https://user-images.githubusercontent.com/83020452/221073012-ac08579f-9221-4761-9c74-e3fffe7336c3.png)
