@@ -215,6 +215,8 @@ Solutions to this problem include using more advanced RNN architectures, such as
 The exploding gradient problem in RNNs refers to the situation where the gradients used to update the model's parameters become extremely large, causing the model to diverge and not converge during training. This can lead to numerical instability, causing the model's parameters to have very large values, resulting in poor performance. The exploding gradient problem is often a result of using a large learning rate or using a deep RNN with many layers, which can cause the gradients to become very large and unstable.
 Solutions to this problem include using gradient clipping, where the gradients are clipped to a maximum value to prevent them from becoming too large.
 
+![image](https://user-images.githubusercontent.com/83020452/221072391-28b5b54a-2b2e-4534-b0e7-3e80788c8347.png)
+
 # Day 17 of #1oodaysofcode
 
 Today I gained some more in-depth knowledge about LSTM, how it functions, and some of its uses.
@@ -234,4 +236,66 @@ The cell state acts as a memory store within the LSTM, and its content is update
 
 ![image](https://user-images.githubusercontent.com/83020452/221071361-712f228a-82d3-4b5f-8235-e55dd26fbb40.png)
 
+# Day 18 of #100daysofcode
+
+I forgot to post about my learning yesterday, so I figured I'd do it today. As I become more familiar with Gated Recurrent Unit, I learn how it differs from LSM.
+
+A gated recurrent unit (GRU) is a gating mechanism in recurrent neural networks (RNN) similar to a long short-term memory (LSTM) unit but without an output gate. When working with smaller datasets, they perform better than LSTM.
+
+GRUs are able to solve the vanishing gradient problem by using an update gate and a reset gate. The reset gate regulates information that exits memory, and the update gate regulates information that enters memory. The information that will be conveyed to the output is chosen by both of them, and each operates as a vector.
+
+
+It can be applied to the modeling of polyphonic music, speech signals, and handwriting recognization.
+
+![image](https://user-images.githubusercontent.com/83020452/221072481-f754d8ae-4d32-4018-b61b-02350af2d581.png)
+
+# Day 19 of #100daysofcode
+
+I completed the project Fake News Classifier using LSTM while learning deep learning.
+
+![image](https://user-images.githubusercontent.com/83020452/221072619-23225ecd-2699-4e9c-a84a-10f98ce4841a.png)
+![image](https://user-images.githubusercontent.com/83020452/221072643-2ec69653-e1f6-482f-a553-fe18de5b5ce7.png)
+
+![image](https://user-images.githubusercontent.com/83020452/221072666-b43095a6-ef2b-4975-a706-6230e7fcb2b7.png)
+![image](https://user-images.githubusercontent.com/83020452/221072685-a6305219-cb62-4f69-90cb-be9d0d366b2d.png)
+
+
+Day 20 of #100daysofcode
+
+Today, I discovered bidirectional LSTM, how it operates, and how it differs from LSTM.
+
+An RNN that can analyze both forward and backward data sequences is known as a bidirectional LSTM. This makes it particularly helpful for applications like speech recognition, natural language processing, and image captioning that require understanding the context of the entire input sequence.
+
+The main characteristic of a bidirectional LSTM is the employment of two independent LSTM layers, one for processing the input sequence forward and another for processing the sequence backward. The two layers' outputs are then concatenated, giving the model a more thorough description of the input sequence. The output that has been concatenated can then be utilized to construct a prediction or a sequence.
+
+One advantage of utilizing a bidirectional LSTM is that it can detect long-term dependencies in the data that conventional LSTMs could overlook. The model is able to incorporate both past and future context by processing the input sequence in both directions, which can be very helpful in situations where the outcome is dependent on the complete input sequence. Moreover, when the input sequence is noisy or lacking, bidirectional LSTMs may perform better than unidirectional LSTMs.
+
+![image](https://user-images.githubusercontent.com/83020452/221072806-be94ac6e-7bc7-4280-979f-a9c698d9cc76.png)
+
+
+Day 21 of #100daysofcode
+Today, I learn more about word embedding and word2Vec.
+
+Word embedding is a technique used in natural language processing and machine learning that maps words or phrases to vectors of real numbers in a high-dimensional space.
+
+The process of creating word embeddings involves analyzing large amounts of text data to learn a mapping from words to numerical vectors. This can be done using various techniques such as neural networks, principal component analysis (PCA), or matrix factorization.
+
+Similarly, Word2Vec is a popular unsupervised learning algorithm used for generating word embeddings from text data. The algorithm is based on the idea that the meaning of a word can be inferred from its context, and that similar words will have similar contexts.
+
+The Word2Vec algorithm trains a neural network on a large corpus of text data to learn vector representations of words. There are two main approaches to training a Word2Vec model: Continuous Bag of Words (CBOW) and Skip-gram.
+
+
+# Day 22 of #100daysofcode
+With the help of bidirectional LSTM, I classified sequences today.
+
+![image](https://user-images.githubusercontent.com/83020452/221072934-c3660662-9a4a-45f7-8170-ccf5f1b3f047.png)
+
+
+ # Day 23 of #100daysofcode
+I learned about the attention model today.
+Attention models are neural network input processing strategies that enable the network to concentrate on particular elements of a complicated input, one at a time until the entire dataset is categorized. The idea is to divide difficult tasks into manageable attentional chunks that are processed sequentially. Similar to how the human mind breaks down a new challenge into smaller jobs and tackles them one at a time.
+Continuous reinforcement or backpropagation training is required for attention models to function well.
+Attention is used for a variety of activities, including memory in neural Turing machines, reasoning in differentiable neural computers, language processing in transformers and LSTMs, and multisensory data processing (sound, pictures, video, and text) in perceivers.
+
+![image](https://user-images.githubusercontent.com/83020452/221073012-ac08579f-9221-4761-9c74-e3fffe7336c3.png)
 
