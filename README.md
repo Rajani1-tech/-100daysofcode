@@ -184,5 +184,54 @@ This RNN takes a sequence of inputs and generates a sequence of outputs. Machine
 ![1675444002702](https://user-images.githubusercontent.com/83020452/216763397-547d9e9d-c74d-4756-919d-8b949271d4b3.jpg)
 
 
+# Day 15 0f #100daysofcode
+
+I learned about the implementation of RNN today, and the following are the steps I took to do it.
+
+1. Read the dataset from the specified URL.
+
+2. Separate the data into training and test sets.
+
+3. Prepare the input according to the necessary Keras format.
+
+4. Create an RNN model, then train it.
+
+5. Make the predictions on the training and test sets, then display the root mean square error for each set.
+
+6. See the outcome
+
+![image](https://user-images.githubusercontent.com/83020452/221071044-bfcec7c9-aac1-4701-a990-646c9a97603c.png)
+![image](https://user-images.githubusercontent.com/83020452/221071019-472c63eb-59b3-4db7-88d0-651b563cde22.png)
+
+ # Day 16 of #100daysofcode
+
+I am now aware of the two main problems with RNN as a consequence of learning and implementing it. I also discovered today how to address these problems.
+
+1. Vanishing Gradient Problem
+The vanishing gradient problem in RNNs refers to the difficulty in training long-term dependencies in sequential data. The problem occurs when the gradients used to update the model's parameters become extremely small, making it difficult for the optimizer to update the weights and improve the model. This can lead to poor performance, especially when working with longer sequences.
+Solutions to this problem include using more advanced RNN architectures, such as LSTMs and GRUs, which are better suited to handle long-term dependencies.
+
+2. Exploding Gradient Problem
+The exploding gradient problem in RNNs refers to the situation where the gradients used to update the model's parameters become extremely large, causing the model to diverge and not converge during training. This can lead to numerical instability, causing the model's parameters to have very large values, resulting in poor performance. The exploding gradient problem is often a result of using a large learning rate or using a deep RNN with many layers, which can cause the gradients to become very large and unstable.
+Solutions to this problem include using gradient clipping, where the gradients are clipped to a maximum value to prevent them from becoming too large.
+
+# Day 17 of #1oodaysofcode
+
+Today I gained some more in-depth knowledge about LSTM, how it functions, and some of its uses.
+
+LSTM stands for Long Short-Term Memory, which is a type of Recurrent Neural Network (RNN) architecture used for processing sequential data. LSTMs are designed to overcome the vanishing gradient problem faced by traditional RNNs by using a gating mechanism to control the flow of information through the network and preserve long-term dependencies. LSTMs are widely used in a variety of applications, including natural language processing, speech recognition, and time-series prediction.
+
+
+LSTMs work by introducing a series of gates within the network to control the flow of information and preserve long-term dependencies. The gates consist of sigmoid neural networks that learn to open and close based on the input data. The LSTM has three main components: the forget gate, input gate, and output gate.
+
+1. The forget gate determines which information from the previous state should be forgotten.
+
+2. The input gate decides which new information from the current input should be added to the cell state.
+
+3. The output gate decides what information from the cell state should be passed on to the output.
+
+The cell state acts as a memory store within the LSTM, and its content is updated at each time step based on the input, forget, and input gates. The output of the LSTM is produced based on the output gate and the cell state. By controlling the flow of information through the network in this way, LSTMs can effectively preserve and use long-term dependencies in sequential data.
+
+![image](https://user-images.githubusercontent.com/83020452/221071361-712f228a-82d3-4b5f-8235-e55dd26fbb40.png)
 
 
