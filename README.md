@@ -115,6 +115,7 @@ Today, as part of my deep learning quest, I learned about LeNET and its implemen
 
 
 ![1674580237980](https://user-images.githubusercontent.com/83020452/214365592-e1312a64-c3de-4493-9148-1cbb9531cd9a.jpg)
+
  # Day 10 of #100daysofcode
  
  Today, I discovered AlexNet and how it operates.
@@ -304,7 +305,9 @@ Attention is used for a variety of activities, including memory in neural Turing
 ![image](https://user-images.githubusercontent.com/83020452/221073012-ac08579f-9221-4761-9c74-e3fffe7336c3.png)
 
 
-Day 24 of #100daysofcode
+# Day 24 of #100daysofcode
+
+
 I discovered today what bert is and how it works.
 Bert (Bidirectional Encoder Representations from Transformers) is a natural language processing (NLP) model developed by Google in 2018.
 
@@ -319,7 +322,9 @@ During fine-tuning, the weights of the pre-trained Bert model are adjusted to op
 ![image](https://user-images.githubusercontent.com/83020452/226668400-e706fd70-1af2-42aa-a339-79f33b285ac3.png)
 
 
-Day 25 of #100daysofcode
+# Day 25 of #100daysofcode
+
+
 Today, I discovered several sorts of hyperparameter tuning.
 
 Hyperparameter tuning is the process of selecting the best set of hyperparameters for a machine-learning algorithm. Hyperparameters are variables that are set before the model training process and cannot be learned from data. Examples of hyperparameters include learning rate, batch size, number of hidden layers, and regularization strength.
