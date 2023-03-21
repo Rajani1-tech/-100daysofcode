@@ -303,3 +303,37 @@ Attention is used for a variety of activities, including memory in neural Turing
 
 ![image](https://user-images.githubusercontent.com/83020452/221073012-ac08579f-9221-4761-9c74-e3fffe7336c3.png)
 
+
+Day 24 of #100daysofcode
+I discovered today what bert is and how it works.
+Bert (Bidirectional Encoder Representations from Transformers) is a natural language processing (NLP) model developed by Google in 2018.
+
+Bert works by pre-training a deep neural network using a large corpus of text data. During pre-training, the model is trained to predict missing words in a sentence (masked language modeling) and to identify the relationship between two different sentences (next sentence prediction).
+
+The pre-training process allows Bert to learn a set of contextualized representations for words, which can be fine-tuned on a wide range of downstream NLP tasks. This means that Bert can be applied to different NLP tasks without needing to be re-trained from scratch each time.
+When Bert is used for a specific NLP task, such as sentiment analysis, the model is first fine-tuned on a labeled dataset specific to that task.
+
+During fine-tuning, the weights of the pre-trained Bert model are adjusted to optimize the model for the specific task. Once fine-tuning is complete, the Bert model can be used to make predictions on new text data.
+
+
+![image](https://user-images.githubusercontent.com/83020452/226668400-e706fd70-1af2-42aa-a339-79f33b285ac3.png)
+
+
+Day 25 of #100daysofcode
+Today, I discovered several sorts of hyperparameter tuning.
+
+Hyperparameter tuning is the process of selecting the best set of hyperparameters for a machine-learning algorithm. Hyperparameters are variables that are set before the model training process and cannot be learned from data. Examples of hyperparameters include learning rate, batch size, number of hidden layers, and regularization strength.
+
+The process of hyperparameter tuning involves searching through a space of possible hyperparameter values and evaluating the performance of the model with each set of hyperparameters. This can be done using techniques like grid search, random search, or Bayesian optimization. The goal is to find the set of hyperparameters that results in the best model performance on a validation set, without overfitting the training set.
+
+Grid Search
+Grid search is a hyperparameter tuning technique that involves searching through a manually defined set of hyperparameter values for a machine learning algorithm. It works by creating a grid of all possible combinations of hyperparameters and evaluating the performance of the model for each combination.
+
+Random Search
+Randomized search is a hyperparameter tuning technique that involves randomly sampling hyperparameters from a distribution instead of exhaustively searching through a predefined set of hyperparameters like in grid search.
+
+
+![image](https://user-images.githubusercontent.com/83020452/226668698-98bf0cf8-f7fd-4d57-b99d-9043e9612e83.png)
+
+
+
