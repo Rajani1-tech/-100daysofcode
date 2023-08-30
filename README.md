@@ -340,5 +340,134 @@ Randomized search is a hyperparameter tuning technique that involves randomly sa
 
 ![image](https://user-images.githubusercontent.com/83020452/226668698-98bf0cf8-f7fd-4d57-b99d-9043e9612e83.png)
 
+Day 26 of #100daysofcode
+I have used GridSearch algorithms on the breast cancer dataset.
 
+Steps for applying GridSearch
+1. Define the model and its hyperparameters
+2. Split the data
+3. Create a grid of hyperparameters
+4. Define the evaluation metric
+5. Perform a Grid search
+6. Select the best hyperparameters
+7. Fit & Evaluate the final model
+Activate to view larger image,
+
+![image](https://github.com/Rajani1-tech/-100daysofcode/assets/83020452/7c92cca3-8a0e-4d55-80e3-e6f3bdc63e61)
+
+
+Day 27 of #100daysofcode
+With the same breast cancer dataset that I used yesterday to train it using Grid Search, I have now implemented the Random Search methods.
+
+![image](https://github.com/Rajani1-tech/-100daysofcode/assets/83020452/ab662f47-21f9-4d04-9f80-d4a7aca5d758)
+
+
+Day 28 of #100daysofcode
+I wrote a blog post today to compile all I've lately learned about Hyperparameter into a brief.
+
+https://medium.com/@rajanilami.12/a-beginners-guide-to-hyperparameter-tuning-with-grid-search-and-random-search-cf752ba720b
+
+
+
+Day 29 of #100daysofcode
+Today, I learned about Ensemble Learning.
+
+Ensemble learning is a machine learning technique that includes merging many models to increase prediction accuracy and durability. The underlying premise behind ensemble learning is that by integrating the predictions of numerous models, the final model will be more accurate than any one model on its own.
+
+Ensemble learning can be used in combination with a wide range of machine learning techniques, including decision trees, neural networks, and support vector machines. The following are the two most prevalent types of ensemble learning:
+1. Bagging
+Bagging is the process of training several models on distinct subsets of the training data and then merging their predictions. This helps to reduce overfitting and improve the model's accuracy.
+
+2. Boosting
+Boosting is the process of sequentially training several models, with each succeeding model learning from the errors of the prior model. This improves the overall accuracy of the resultant model by focusing on the areas where earlier models failed.
+
+Ensemble methods have been demonstrated to increase the performance of machine learning models in a variety of applications ranging from image classification to natural language processing. However, it is crucial to highlight that ensemble approaches are not always required, and in some circumstances, a single model may be sufficient to attain high levels of accuracy.
+Activate to view larger image,
+
+
+![image](https://github.com/Rajani1-tech/-100daysofcode/assets/83020452/23bcac86-a30c-4c6e-bc99-8ca9933949bf)
+
+
+Day 30 of #100daysofcode
+Today, I learned about Cross-Validation.
+
+Cross-validation is a technique used in machine learning to evaluate the performance of a model and to select the best set of hyperparameters. It involves partitioning the dataset into several subsets or folds, training the model on some of the folds, and then testing it on the remaining fold(s). This process is repeated several times, with different folds used for training and testing in each iteration.
+
+The most common type of cross-validation is k-fold cross-validation, where the dataset is divided into k equally sized folds. The model is then trained on k-1 folds and tested on the remaining fold. This process is repeated k times, with each fold used for testing once. The performance of the model is then evaluated by averaging the performance across all k iterations.
+
+Cross-validation helps to avoid overfitting and provides a more accurate estimate of the model's performance on unseen data. It is particularly useful when the dataset is small, and there is a risk of overfitting, or when hyperparameter tuning is required.
+Activate to view larger image,
+
+![image](https://github.com/Rajani1-tech/-100daysofcode/assets/83020452/890dcb69-54bc-485d-8aef-38a74c871f51)
+
+
+Day 31 & 32 of #100daysofcode
+I became more familiar with the Naive Bayes theorem.
+
+Naive Bayes theorem is a probabilistic algorithm used for classification tasks in machine learning and data science. It is based on Bayes' theorem, which states that the probability of a hypothesis (H) given some evidence (E) is proportional to the probability of the evidence given the hypothesis times the prior probability of the hypothesis:
+
+P(H|E) = P(E|H) * P(H) / P(E)
+
+The "naive" aspect of Naive Bayes comes from the assumption that the features are conditionally independent given the class label. In other words, each feature contributes to the probability of the class label independently of the other features.
+
+![image](https://github.com/Rajani1-tech/-100daysofcode/assets/83020452/523e9133-3387-4b1a-9999-143e8486051f)
+
+
+Day 33, 34 of #100daysofcode
+I have learned about feature engineering.
+Feature engineering is the act of choosing and modifying raw data into a format that machine learning algorithms may use to enhance their performance in solving a specific problem.
+
+In other words, it entails determining the most pertinent and instructive features of the data that are most likely to aid the model in recognizing patterns and making precise predictions. Domain expertise, statistical methods, and creativity are frequently combined in this process.
+
+Some common techniques used in feature engineering include:
+
+1. One-hot encoding: converting categorical variables into binary indicators.
+
+2. Scaling and normalization: transforming numeric variables to have a standard range and mean.
+
+3. Feature selection: choosing the most informative features that contribute to the predictive power of the model.
+
+4. Feature extraction: creating new features by combining or transforming existing ones.
+
+5. Text preprocessing: cleaning and transforming textual data for analysis.
+
+Effective feature engineering is often a critical step in developing successful machine learning models, as it can significantly impact the accuracy and generalizability of the results.
+
+Day 35 of #100daysofcode
+I have learned about One-hot encoding.
+
+One hot encoding is a technique used to represent categorical variables as numerical values in a machine-learning model.
+
+In this technique, each categorical value is represented as a binary vector of 0s and 1s, where the index corresponding to the value is set to 1 and all other indices are set to 0.
+
+For example, suppose we have a categorical variable "color" with three possible values: "red," "green," and "blue."
+To represent this variable using one-hot encoding, we would create three binary vectors: [1,0,0] for "red," [0,1,0] for "green," and [0,0,1] for "blue."
+
+One hot encoding is often used as a preprocessing step in machine learning algorithms to convert categorical data into a format that can be used for model training. By representing categorical data as numerical vectors, we can apply mathematical operations to them and enable machine learning models to work on this data.
+
+![image](https://github.com/Rajani1-tech/-100daysofcode/assets/83020452/246c8acb-d4ab-4245-b42f-77eb534bfc4a)
+
+Day 36 of #100daysofcode
+Today, I learned about another important technique in feature engineering i.e Scaling & Normalization
+
+Scaling is the process of altering a variable's range so that it falls within a certain range. This is usually done to guarantee that all variables have the same scale. For example, if one variable is measured in thousands and another in tens, the larger variable would overpower the smaller one, resulting in erroneous findings. We may verify that all variables have equal weight in the study by scaling the data. Scaling strategies that are commonly used include min-max scaling and standardization.
+
+Normalization is the process of rescaling variables so that they have a mean of zero and a standard deviation of one. This is usually done to guarantee that all variables are on the same scale and to make the data easy to compare. Normalization is frequently employed when the distribution of the data is not normal or when the range of the data is too vast. Normalization techniques commonly used include Z-score normalization and decimal scaling.
+
+Overall, scaling and normalization are important techniques in feature engineering for ML that help ensure that the input features are on the same scale and have the same variance, which can improve the accuracy and interpretability of the ML model.
+
+Day 37, 38 of #100daysofcode
+I learned today how to use feature selection and feature extraction to reduce the dimensionality of data and enhance the performance of an ML model.
+
+Feature selection refers to the process of selecting a subset of relevant features from the original set of features. This is accomplished by determining the most significant traits that have a strong correlation with the target variable and removing irrelevant or redundant features. The purpose of feature selection is to improve the model's accuracy while reducing the data's complexity. Popular feature selection approaches include Recursive Feature Elimination (RFE), Wrapper Methods, and Filter methods.
+
+Feature extraction, on the other hand, entails changing the original features into a new set of features that are more useful or informative for a specific job. This is accomplished by integrating or aggregating the original features using mathematical processes such as Principal Component Analysis (PCA), Linear Discriminant Analysis (LDA), or Non-negative Matrix Factorization. (NMF). Feature extraction is frequently employed when the original features are high-dimensional and difficult to comprehend or display, and the new collection of features is expected to capture the underlying structure of the data more effectively.
+
+However, the choice between the two techniques is determined by the specific properties of the data and the model's requirements. In general, feature selection is preferable when the original features are few in number and the target variable is well-defined, whereas feature extraction is preferred when the original features are multidimensional and difficult to comprehend or visualize.
+
+
+Day 39 of #100daysofcode
+I used the Sci-kit learn Library to implement One Hot Encoding.
+
+![image](https://github.com/Rajani1-tech/-100daysofcode/assets/83020452/adbde57d-4fd2-4ee3-8b49-a6f65fe5c654)
 
