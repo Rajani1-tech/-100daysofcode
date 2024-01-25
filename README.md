@@ -376,9 +376,11 @@ Ensemble learning is a machine learning technique that includes merging many mod
 
 Ensemble learning can be used in combination with a wide range of machine learning techniques, including decision trees, neural networks, and support vector machines. The following are the two most prevalent types of ensemble learning:
 1. Bagging
+2. 
 Bagging is the process of training several models on distinct subsets of the training data and then merging their predictions. This helps to reduce overfitting and improve the model's accuracy.
 
-2. Boosting
+3. Boosting
+4. 
 Boosting is the process of sequentially training several models, with each succeeding model learning from the errors of the prior model. This improves the overall accuracy of the resultant model by focusing on the areas where earlier models failed.
 
 Ensemble methods have been demonstrated to increase the performance of machine learning models in a variety of applications ranging from image classification to natural language processing. However, it is crucial to highlight that ensemble approaches are not always required, and in some circumstances, a single model may be sufficient to attain high levels of accuracy.
