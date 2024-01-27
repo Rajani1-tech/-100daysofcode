@@ -184,12 +184,15 @@ Today I explored the following sorts of RNN:
 This type of neural network is known as the Vanilla Neural Network.It is applied to issues in generic machine learning that have a single input and a single output.
 
 3. One to Many RNN
+   
 This type of neural network has a single input and multiple outputs. An example of this is the image caption.
 
-4. Many to One RNN
+5. Many to One RNN
+   
 A series of inputs are used by this RNN to produce a single output. Sentiment analysis is a good example of this type of network, which allows for the classification of a given sentence as reflecting either positive or negative thoughts.
 
-5. Many to Many RNN
+7. Many to Many RNN
+   
 This RNN takes a sequence of inputs and generates a sequence of outputs. Machine translation is one example.
 
 
