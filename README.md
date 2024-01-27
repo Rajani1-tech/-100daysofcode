@@ -406,6 +406,7 @@ Activate to view larger image,
 
 
 Day 30 of #100daysofcode
+
 Today, I learned about Cross-Validation.
 
 Cross-validation is a technique used in machine learning to evaluate the performance of a model and to select the best set of hyperparameters. It involves partitioning the dataset into several subsets or folds, training the model on some of the folds, and then testing it on the remaining fold(s). This process is repeated several times, with different folds used for training and testing in each iteration.
@@ -419,6 +420,7 @@ Activate to view larger image,
 
 
 Day 31 & 32 of #100daysofcode
+
 I became more familiar with the Naive Bayes theorem.
 
 Naive Bayes theorem is a probabilistic algorithm used for classification tasks in machine learning and data science. It is based on Bayes' theorem, which states that the probability of a hypothesis (H) given some evidence (E) is proportional to the probability of the evidence given the hypothesis times the prior probability of the hypothesis:
@@ -431,6 +433,7 @@ The "naive" aspect of Naive Bayes comes from the assumption that the features ar
 
 
 Day 33, 34 of #100daysofcode
+
 I have learned about feature engineering.
 Feature engineering is the act of choosing and modifying raw data into a format that machine learning algorithms may use to enhance their performance in solving a specific problem.
 
@@ -451,6 +454,7 @@ Some common techniques used in feature engineering include:
 Effective feature engineering is often a critical step in developing successful machine learning models, as it can significantly impact the accuracy and generalizability of the results.
 
 Day 35 of #100daysofcode
+
 I have learned about One-hot encoding.
 
 One hot encoding is a technique used to represent categorical variables as numerical values in a machine-learning model.
@@ -465,6 +469,7 @@ One hot encoding is often used as a preprocessing step in machine learning algor
 ![image](https://github.com/Rajani1-tech/-100daysofcode/assets/83020452/246c8acb-d4ab-4245-b42f-77eb534bfc4a)
 
 Day 36 of #100daysofcode
+
 Today, I learned about another important technique in feature engineering i.e Scaling & Normalization
 
 Scaling is the process of altering a variable's range so that it falls within a certain range. This is usually done to guarantee that all variables have the same scale. For example, if one variable is measured in thousands and another in tens, the larger variable would overpower the smaller one, resulting in erroneous findings. We may verify that all variables have equal weight in the study by scaling the data. Scaling strategies that are commonly used include min-max scaling and standardization.
@@ -474,6 +479,7 @@ Normalization is the process of rescaling variables so that they have a mean of 
 Overall, scaling and normalization are important techniques in feature engineering for ML that help ensure that the input features are on the same scale and have the same variance, which can improve the accuracy and interpretability of the ML model.
 
 Day 37, 38 of #100daysofcode
+
 I learned today how to use feature selection and feature extraction to reduce the dimensionality of data and enhance the performance of an ML model.
 
 Feature selection refers to the process of selecting a subset of relevant features from the original set of features. This is accomplished by determining the most significant traits that have a strong correlation with the target variable and removing irrelevant or redundant features. The purpose of feature selection is to improve the model's accuracy while reducing the data's complexity. Popular feature selection approaches include Recursive Feature Elimination (RFE), Wrapper Methods, and Filter methods.
