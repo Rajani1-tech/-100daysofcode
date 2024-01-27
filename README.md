@@ -57,15 +57,19 @@ Optimizers are algorithms or techniques that alter the weights and learning rate
 Below is an explanation of several optimizers:
 
 1. Batch Gradient Descent (BGD)
+   
 BGD is a variation of the gradient descent algorithm that calculates the error for each of the training datasets, but only updates the model after all training examples have been evaluated.
 
-2. Mini Batch Gradient Descent(MGD)
+3. Mini Batch Gradient Descent(MGD)
+   
 MGD is a variation of the gradient descent algorithm that splits the training datasets into small batches that are used to calculate model error and update model coefficients.
 
-3. Stochastic Gradient Descent(SGD)
+5. Stochastic Gradient Descent(SGD)
+   
 SGD is a variation of the gradient descent that calculates the error and updates the model for each record in the training datasets.
 
-4. Gradient Descent with Momentum
+7. Gradient Descent with Momentum
+   
 It is invented for reducing high variance in SGD and softening the convergence. It accelerates the convergence towards the relevant direction and reduces the fluctuation to the irrelevant direction.
 
 ![image](https://user-images.githubusercontent.com/83020452/213480603-c9759056-a64c-43f8-91e5-85b8577bf6bd.png)
@@ -75,15 +79,18 @@ It is invented for reducing high variance in SGD and softening the convergence. 
 I have concluded learning the several optimizer kinds that were left over from yesterday.
 
 1. Adagrad Optimizer
+   
 Adagrad is an optimizer with parameter-specific learning rates, which are adapted relative to how frequently a parameter gets updated during training. The more updates a parameter receives, the smaller the updates. Due to its quicker learning rate reduction for frequent parameters and slower learning rate reduction for uncommon parameters, this method works well with sparse data.
 The denominator grows aggressively monotonically as squared gradients are added, which is AdaGrad's drawback. The learning rate eventually reaches an infinitesimally tiny value, at which time the algorithm effectively stops moving in the direction of the minimum.
 
-2. Root Mean Squared Propagation
+3. Root Mean Squared Propagation
+   
 When AdaGrad was getting near to convergence, it became immobile because the degraded learning rate prevented it from moving in the vertical direction. This issue is solved by RMSProp by being less aggressive toward decay.
 RMSProp, is a variation on gradient descent, and the AdaGrad version of gradient descent that adapts the step size for each parameter using a declining average of partial gradients. The adaptive learning rate's focus on more recent gradients is managed by the hyperparameter,
 sometimes referred to as the decay rate. RMSProp will often perform better than AdaGrad.
 
-3. Adam Optimization
+5. Adam Optimization
+   
 Adam, which stands for Adaptive Moment Estimation, combines the concepts of Momentum Optimization and RMSProp. Momentum Optimization maintains a record of an exponentially decaying average of previous gradients, while RMSProp maintains a record of an exponentially decaying average of previously squared gradients. Adam uses the average of the second moments of the gradients in addition to the average of the first moments, which is how RMSProp adjusts the parameter learning rates (the uncentered variance).
 
 ![1674230353703](https://user-images.githubusercontent.com/83020452/214364787-a42df3f1-636a-4ef4-8dd6-2c12b8396e16.gif)
@@ -119,6 +126,7 @@ Today, as part of my deep learning quest, I learned about LeNET and its implemen
  # Day 10 of #100daysofcode
  
  Today, I discovered AlexNet and how it operates.
+ 
 AlexNet is the deep learning architecture that popularized CNN. In terms of design, the AlexNet network was quite similar to the LeNet network, but it was deeper, larger, and contained Convolutional Layers piled on top of one another. At the time of its release, the AlexNet architecture produced findings that were cutting-edge for application with large-scale picture collections. Max-pooling layers, fully connected layers, dropout layers, and three more types of layers make up AlexNet's five convolutional layers. All layers employ the Relu activation function. The output layer has Softmax as its activation function. This architecture has almost 60 million parameters overall.
 
 ![1674669919777](https://user-images.githubusercontent.com/83020452/216763132-a3234f2a-b944-4953-9bd4-998a2bddeedd.jpg)
@@ -130,6 +138,7 @@ I gained knowledge of many CNN architectures, like GoogLeNet and VGGNet, and I a
 # Day 12 of #100daysofcode
 
 Today I learned about Xception while continuing my deep learning quest.
+
 Xception is a convolutional neural network (CNN) architecture developed by Google for image classification tasks. It is a variant of the Inception architecture and is designed to improve upon the Inception model by reducing the number of computations required while maintaining or improving accuracy. Xception is known for its exceptional performance on image classification tasks and is often used as a feature extractor in computer vision applications.
 
 It combines the concepts of Google Neural Network and ResNet Architecture. The data initially passes via the entering flow, following which it moves through the middle flow, where it repeats itself eight times, and ultimately passes through the exit flow.
@@ -158,6 +167,7 @@ RNNs are used because they are effective in processing sequential data by retain
 # Day 13 of #100daysofcode
 
 Today, I gained knowledge on RNN operation.
+
 In Recurrent Neural networks, the information cycles through a loop to the middle hidden layer. The input to the neural network is received by layer "x," which processes it before sending it to layer "m."
 
 There may be several hidden layers in the middle layer "h," each with its own activation functions, weights, and biases. We can utilize a recurrent neural network if our neural network's hidden layers' various parameters are independent of each other and the prior layer, or if our neural network lacks memory.
@@ -168,16 +178,18 @@ There may be several hidden layers in the middle layer "h," each with its own ac
 # Day 14 of #100daysofcode
 
 Today I explored the following sorts of RNN:
+
 1. One to One RNN
+   
 This type of neural network is known as the Vanilla Neural Network.It is applied to issues in generic machine learning that have a single input and a single output.
 
-2. One to Many RNN
+3. One to Many RNN
 This type of neural network has a single input and multiple outputs. An example of this is the image caption.
 
-3. Many to One RNN
+4. Many to One RNN
 A series of inputs are used by this RNN to produce a single output. Sentiment analysis is a good example of this type of network, which allows for the classification of a given sentence as reflecting either positive or negative thoughts.
 
-4. Many to Many RNN
+5. Many to Many RNN
 This RNN takes a sequence of inputs and generates a sequence of outputs. Machine translation is one example.
 
 
